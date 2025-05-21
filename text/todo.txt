@@ -1,0 +1,10 @@
+- Make a no gui pdf to txt command line tool
+  - using github.com/pdfcpu/pdfcpu/pkg/api github.com/jdkato/prose/v2
+- when going instert mode from i go one char right
+- cat -clip <file_name>
+- Get the godot project to work again
+- auto close braces
+- add python syntax highlighting
+- ViHelp 
+  - harpoon.lua
+  - session.lua

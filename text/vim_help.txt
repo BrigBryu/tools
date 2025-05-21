@@ -1,0 +1,45 @@
+## Karabiner (keyboard remapping)
+### in iTerm
+  caps lock → escape
+### everywhere else
+  caps lock → control
+  cmd + h / cmd + l  → macOS desktop switching
+  caps + h/j/k/l     → tab management & scrolling in Chrome / ChatGPT
+
+## Zsh
+  alias vi='nvim'
+  alias Todo='nvim ~/Documents/text/todo.txt'
+  alias ViHelp='nvim ~/Documents/text/vim_help.txt'
+  alias PyHelp='nvim ~/Documents/text/py_help.txt'
+  alias pgo='pomo start -track'
+  alias ps='pomo -status'
+
+## Helpful nvim commands
+  :%s/old_text/new_text       # search & replace in current buffer
+
+## bufferline
+  <leader>1-5   jump to buffers 1-5  
+  <leader>h/l   previous / next buffer  
+  <leader>c     pick & close buffer  
+  <leader>< / > move buffer left / right  
+  <leader>n     new blank buffer, then Telescope picker  
+
+## Auto-complete
+### cmp
+  tab            confirm completion  
+  caps + j / k   navigate  
+  caps + space   trigger manually  
+### copilot
+  :Copilot       toggle after entering Insert once  
+  tab            confirm ghost-text suggestion  
+
+## toggleterm
+  <leader>t      open / close integrated terminal
+
+## Harpoon
+  <leader>ha       add current file (prompts for optional label)
+  <leader>hh       quick menu
+  <leader>h1-h4    jump to marks 1-4
+  <leader>hd       delete current file from Harpoon
+  <leader>hr       rename label of current Harpoon entry
+  <leader>hs       move current entry to another slot (prompts for 1-9)

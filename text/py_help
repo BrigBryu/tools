@@ -1,0 +1,8 @@
+##venv
+virtual environemnt that can have different versions of stuff
+#to make
+python3 -m venv venv
+#to activate
+source venv/bin/activate
+#to deactivate
+deactivate
